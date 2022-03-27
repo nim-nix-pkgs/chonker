@@ -11,6 +11,7 @@
   inputs.src-chonker-master.ref   = "refs/heads/master";
   inputs.src-chonker-master.owner = "juancarlospaco";
   inputs.src-chonker-master.repo  = "nim-chonker";
+  inputs.src-chonker-master.dir   = "";
   inputs.src-chonker-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
